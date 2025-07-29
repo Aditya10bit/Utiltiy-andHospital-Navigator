@@ -44,7 +44,8 @@ A React Native Expo app that helps users find and navigate to nearby utility ser
 
 2. **Environment Setup**
    - The Google Maps API key is already configured in `.env`
-   - API Key: `AIzaSyBUghN90uUO0xf7OKvrh1GczhQgqstvmU8`
+
+   
 
 3. **Start Development Server**
    ```bash
