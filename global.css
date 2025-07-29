@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for better dark mode support */
+.dark {
+  color-scheme: dark;
+}
+
+/* Ensure proper text contrast in dark mode */
+@media (prefers-color-scheme: dark) {
+  * {
+    border-color: rgb(55 65 81); /* gray-700 */
+  }
+}
